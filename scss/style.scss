@@ -1,0 +1,39 @@
+/*
+* import of .scss styles ↓
+*/
+
+@import "zeroing.scss";
+@import "_header";
+@import "_content";
+@import "_footer";
+
+
+/*
+* import of fonts ↓
+*/
+
+
+
+/*
+* styles ↓
+*/
+
+.wrapper{
+   width: 100%;
+   min-height: 100%;
+   overflow: hidden; 
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.conteiner {
+   max-width: 1180px;
+   padding: 0 15px;
+   margin: 0 auto;
+   width: 100%;
+}
+
+body{
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
