@@ -181,6 +181,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     left: 0;
     top: 9px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
 }
 
@@ -204,6 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   .header__burger.active span {
     -webkit-transform: scale(0);
             transform: scale(0);
+            opacity: 0;
   }
 }
 
